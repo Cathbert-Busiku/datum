@@ -23,7 +23,7 @@ Project:  Artelligence
 
 :root {
     --e-global-color-primary: #262626;
-    --e-global-color-secondary: #2be0f7;
+    --e-global-color-secondary: #AACD71;
     --e-global-color-text: #787878;
     --e-global-color-accent: #2293aa;
     --e-global-color-white: #ffffff;
@@ -34,9 +34,13 @@ Project:  Artelligence
     --e-global-color-very-dark-mostly-black-blue:#02162d;
     --e-global-color-dark-cyan:#2397ae;
     --e-global-color-light-black:#2e2e2e;
-    --e-gradient-1:#02162d;
-    --e-gradient-2:#36e0f7;
+    /* --e-gradient-1:#02162d;
+    --e-gradient-2:#36e0f7; */
+    --e-gradient-1: #02544E;
+    --e-gradient-2: #35C96A;
 }
+
+
 
 body{
     font-family: 'Ubuntu', sans-serif;
@@ -63,7 +67,7 @@ body{
     font-size: 22px;
     line-height: 30px;
     font-weight: 700;
-    color: var(--e-global-color-primary);
+    color: #02544E;
 }
 .h5, h5 {
     font-size: 20px;
@@ -398,7 +402,8 @@ p {
 /* Services */
 
 .service-section{
-    background-color: #eafcfe;
+    /* background-color: #eafcfe; */
+    background-color: #DBEDEF;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -466,7 +471,8 @@ p {
     border-bottom: 2px solid #249cb3;
 }
 .service-section .service_contentbox .service-box:hover{
-    background-image: linear-gradient(to right, #082e45 0%, #17677e 51%, #249cb3 100%);
+    /* background-image: linear-gradient(to right, #082e45 0%, #17677e 51%, #249cb3 100%); */
+    background: #02544E;
     border-bottom: 2px solid #249cb3;
     transform: translateY(-5px);
 }
@@ -661,7 +667,8 @@ p {
     margin-bottom: 14px;
 }
 .study-section .case-box .circle {
-    background-image: linear-gradient(to right, #0f4a61 0%, #1d7d94 51%, #28a8bf 100%);
+    /* background-image: linear-gradient(to right, #0f4a61 0%, #1d7d94 51%, #28a8bf 100%); */
+    background-image: linear-gradient(to right, #013633 0%, #02544E 51%, #038A85 100%);
     border-radius: 100px;
     height: 45px;
     width: 45px;
@@ -729,7 +736,8 @@ p {
 /* Testimonial */
 
 .testimonial-section{
-    background-color: #eafcfe;
+    /* background-color: #eafcfe; */
+    background-color: #DBEDEF;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -895,7 +903,8 @@ p {
     position: relative;
 }
 .faq-section .accordion-card{
-    box-shadow: 1px 1px 70px rgba(95 208 243 / 21%);
+    /* box-shadow: 1px 1px 70px rgba(95 208 243 / 21%); */
+    box-shadow: 1px 1px 70px rgba(2, 84, 78, 0.21);
     background: var(--e-global-color-white);
     width: 100%;
     border-radius: 25px;
@@ -1953,4 +1962,7 @@ p {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
 }
+
+
+
 
