@@ -900,8 +900,13 @@ p {
 /* FAQ / Need*/
 
 .faq-section{
-    padding: 182px 0 142px;
+    padding: 100px 0 142px;
     position: relative;
+   
+}
+
+.faq-home{
+    background-color: #DBEDEF !important;
 }
 .faq-section .accordion-card{
     /* box-shadow: 1px 1px 70px rgba(95 208 243 / 21%); */
@@ -1967,6 +1972,21 @@ p {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
 }
+
+
+
+
+.fixed-height {
+    height: 470px; /* Set a fixed height for the images */
+    object-fit: cover; /* Ensure the image covers the specified height while maintaining its aspect ratio */
+    width: 100%; /* Ensure the image takes the full width of its container */
+}
+
+.img-rounded{
+    border-radius: 20px;
+}
+
+.unique-font {font-size: 21px !important; }
 
 
 

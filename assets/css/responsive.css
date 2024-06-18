@@ -42,7 +42,7 @@
 #carouselExampleControls .carousel-control-next {right: -26px;}
 #carouselExampleControls .carousel-control-prev {left: -38px;}
 .testimonial-section .testimonial-sideimage {display: none;}
-.faq-section {padding: 122px 0;}
+.faq-section {padding: 100px 0;}
 .footer-section .footer-image {right: 26px; bottom: 70px;}
 .footer-section .footer-image img{width: 100px;}
 #fixed-form-container .body {width: 94%; padding: 15px 15px 25px; left: 0; top: -178px;}
@@ -164,7 +164,7 @@ p {font-size: 18px; line-height: 24px;}
 .testimonial-section .partner-section .partner img {width: 100px;}
 .testimonial-section .partner-section .partner li:first-child {margin-left: 0;}
 .testimonial-section .partner-section .partner li {margin: 0 34px;}
-.faq-section {padding: 120px 0 100px;}
+.faq-section {padding: 100px 0 100px;}
 .faq-section .faq_content h2 {margin-bottom: 30px;}
 .faq-section .faq_content h5 {margin-bottom: 4px;}
 .faq-section .accordian-inner p {font-size: 16px; line-height: 24px;}
@@ -702,3 +702,4 @@ p { font-size: 14px; line-height: 20px;}
 @media screen and (min-width: 380px) and (max-width: 575px) {
 .sub-banner .banner-section .banner_wrapper .sub-bannerimage {right: -130px;}
 }
+
