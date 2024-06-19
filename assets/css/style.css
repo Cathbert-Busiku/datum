@@ -511,12 +511,13 @@ p {
 /* Why choose us */
 
 .choose-section{
-    background: url("../images/choose-background.png");
+    background: url("../images/faq-bg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    padding: 147px 0 160px
+    padding: 147px 0 160px;
+    background-color: #02544E ;
 }
 .choose-section .choose-sideshape{
     position: absolute;
@@ -899,8 +900,13 @@ p {
 /* FAQ / Need*/
 
 .faq-section{
-    padding: 182px 0 142px;
+    padding: 100px 0 142px;
     position: relative;
+   
+}
+
+.faq-home{
+    background-color: #DBEDEF !important;
 }
 .faq-section .accordion-card{
     /* box-shadow: 1px 1px 70px rgba(95 208 243 / 21%); */
@@ -1481,7 +1487,8 @@ p {
 /* Counter */
 
 .counter-section{
-    background-color: #eafcfe;
+    /* background-color: #eafcfe; */
+    background-color: #DBEDEF;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1637,7 +1644,8 @@ p {
 /* Team Page */
 
 .team-section{
-    background-color: #eafcfe;
+    /* background-color: #eafcfe; */
+    background-color: #DBEDEF;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1708,7 +1716,8 @@ p {
 /* Service Page */
 
 .provide-section{
-    background-color: #eafcfe;
+    /* background-color: #eafcfe; */
+    background-color: #DBEDEF;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1813,7 +1822,8 @@ p {
     width: 26%;
 }
 .contact-section .contact-box figure{
-    background-image: linear-gradient(to right, #0b3950 0%, #197188 51%, #26a2b9 100%);
+    /* background-image: linear-gradient(to right, #0b3950 0%, #197188 51%, #26a2b9 100%); */
+    background-image: linear-gradient(to right, #013633 0%, #02544E 51%, #038A85 100%);
     border-radius: 100px;
     height: 110px;
     width: 110px;
@@ -1962,6 +1972,21 @@ p {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
 }
+
+
+
+
+.fixed-height {
+    height: 470px; /* Set a fixed height for the images */
+    object-fit: cover; /* Ensure the image covers the specified height while maintaining its aspect ratio */
+    width: 100%; /* Ensure the image takes the full width of its container */
+}
+
+.img-rounded{
+    border-radius: 20px;
+}
+
+.unique-font {font-size: 21px !important; }
 
 
 
