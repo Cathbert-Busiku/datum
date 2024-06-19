@@ -399,6 +399,11 @@ p {
     color: var(--e-global-color-dark-blue);
 }
 
+
+.about-section .nav-tabs{
+    border: 1px solid #9ab1b0;
+    border-radius: 2px;
+}
 /* Services */
 
 .service-section{
@@ -1396,6 +1401,7 @@ p {
 .aboutpage-section{
     padding: 162px 0 146px;
 }
+
 .aboutpage-section .aboutpage_wrapper{
     position: relative;
 }
@@ -1476,6 +1482,7 @@ p {
     display: inline-block;
     transition: all 0.3s ease-in-out;
 }
+
 .aboutpage-section .aboutpage_content .circle:before {
     font-size: 18px;
     padding-top: 2px;
@@ -1484,6 +1491,10 @@ p {
     color: var(--e-global-color-dark-blue);
 }
 
+.aboutpage-section-2{
+    margin-top: 10px;
+    
+} 
 /* Counter */
 
 .counter-section{
