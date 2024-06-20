@@ -516,7 +516,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    padding: 147px 0 160px;
+    padding: 80px 0 80px;
     background-color: #02544E ;
 }
 .choose-section .choose-sideshape{
@@ -1492,7 +1492,7 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 130px 0 427px;
+    padding: 100px 0 100px;
 }
 .counter-section .counter-sideimage{
     position: absolute;
@@ -1988,6 +1988,152 @@ p {
 
 .unique-font {font-size: 21px !important; }
 
+.mission{
+    border-radius: 20px;
+}
+
+/* .choose-section .about-four-points-box {
+    margin-right: 100px;
+} */
+.choose-section ul, ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 
 
+.about-four-points-box .missions {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 17px 50px 17px 0;
+    background-color: var(--elton-light);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    z-index: 9;
+    
+}
 
+.our-mission{
+    background-color: #FFFFFF !important;
+    border-radius: 20px;
+}
+
+.missions{
+    margin: 20px;
+}
+
+
+.methodology-step {
+    -webkit-text-stroke: 1px #FE0000;
+    color: #FFF0EC;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 32px;
+    margin-left: 19px;
+}
+
+.about-four-points-shape {
+    position: absolute;
+    background: url(../images/shapes/why-choose-three-points-shape.png) no-repeat;
+    background-size: contain;
+    width: 60px;
+    height: 73px;
+    top: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.about-four-points-box .missions .about-four-points-icon {
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    background-color: black;
+    padding: 17px 27px 17px 13px;
+    transition: all 0.3s;
+}
+
+.about-four-points-box .missions .about-four-points-icon span {
+    font-size: 70px;
+    color: #FFFFFF;
+}
+
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+.about-four-points-box li+li {
+    margin-top: 25px;
+}
+
+.about-four-points-box .missions .about-four-points-icon span {
+    font-size: 70px;
+    color: #FFFFFF;
+}
+
+
+.about-four-points-details {
+    padding-left: 10px;
+    text-align: justify;
+}
+
+.about-four-points-details a {
+    font-size: 22px;
+    font-style: normal;
+    display: block;
+    font-weight: 600;
+    line-height: 32px;
+    margin-bottom: 5px;
+    transition: all 0.3s;
+}
+
+.about-four-points-details p {
+    color: var(--elton-secondary);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.about-four-points-shape {
+    position: absolute;
+    background: url(../images/shapes/why-choose-three-points-shape.png) no-repeat;
+    background-size: contain;
+    width: 60px;
+    height: 73px;
+    top: 0;
+    right: 0;
+    z-index: 0;
+}
+
+.about-four-points-details a:hover {
+    text-decoration: none;
+}
+
+
+.icon-methodology,
+.icon-mission,
+.icon-vision {
+ font-size: 50px !important;
+}
+
+.about-four-points-details ul.methodology-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.about-four-points-details ul.methodology-list li {
+    display: inline-block;
+    margin-right: 10px; /* Adjust spacing as needed */
+}
+
+.methodology-step {
+    margin-right: 5px; /* Adjust spacing as needed */
+}
