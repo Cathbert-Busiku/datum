@@ -84,7 +84,7 @@ body{
 }
 p {
     font-size: 20px;
-    line-height: 28px;
+    line-height: 30px;
     font-weight: 400;
     font-family: 'Manrope', sans-serif;
     color: var(--e-global-color-text);
@@ -93,9 +93,10 @@ p {
     font-size: 18px;
     line-height: 30px;
 }
-.text-size-16 {
+.text-size-18 {
     font-size: 16px;
-    line-height: 22px;
+    line-height: 30px;
+   
 }
 
 /* Home Page Style */
@@ -964,7 +965,7 @@ p {
     /* margin-bottom: 16px; */
     display: inline-block;
 }
-.faq-section .faq_content .text-size-16{
+.faq-section .faq_content .text-size-18{
     margin-bottom: 22px;
 }
 .faq-section .accordion-card a.btn.btn-link {
@@ -1170,7 +1171,7 @@ p {
 .footer-section .middle-portion .list-pd{
     padding-left: 14px;
 }
-.footer-section .middle-portion .links .text-size-16 {
+.footer-section .middle-portion .links .text-size-18 {
     position: relative;
     margin-left: 15px;
     font-weight: 400;
@@ -1181,7 +1182,7 @@ p {
 .footer-section .middle-portion .links li{
     margin-bottom: 8px;
 }
-.footer-section .middle-portion .icon .text-size-16 {
+.footer-section .middle-portion .icon .text-size-18 {
     color: var(--e-global-color-white);
 }
 .footer-section .middle-portion .icon {
@@ -1533,7 +1534,7 @@ p {
     font-weight: 700;
     color: var(--e-global-color-primary);
 }
-.counter-section .counter-box .text-size-16{
+.counter-section .counter-box .text-size-18{
     display: block;
 }
 .videosection{
