@@ -1081,7 +1081,7 @@
     right: 50px;
     top: 280px;
   }
-  .about-section .about_content h5, h3{
+  .about-section .about_content {
     padding-left: 0;
     text-align: center;
   }
