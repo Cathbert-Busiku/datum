@@ -1478,6 +1478,7 @@ p {
     display: inline-block;
     transition: all 0.3s ease-in-out;
 }
+
 .aboutpage-section .aboutpage_content .circle:before {
     font-size: 18px;
     padding-top: 2px;
